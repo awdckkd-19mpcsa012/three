@@ -1,0 +1,27 @@
+import java.util.*;
+class sol2
+{
+Stack<Character> a=new Stack<Character>();
+Queue<Character> b=new LinkedList<Character>();
+void pushCharacter(char ch)
+{
+a.push(ch);
+}
+void enqueueCharacter(char ch)
+{
+b.add(ch);
+}
+char popCharacter()
+{
+return a.pop();
+}
+char dequeueCharacter()
+{
+return b.remove();
+}
+public static void main(String[]args)
+{
+Scanner scan=new Scanner(System.in);
+String input=scan.nextLine();
+scan.close();
+}}
